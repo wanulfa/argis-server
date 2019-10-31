@@ -37,10 +37,6 @@ Simpan dalam bentuk dataframe
 ```
 rumahsakit <- esri2sf(url)
 ```
-Bikin plot sederhana
-```
-plot(rumahsakit)
-```
 Simpan dalam format csv 
 ```
 write.csv(rumahsakit, file = "rumahsakit.csv")
